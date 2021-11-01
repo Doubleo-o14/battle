@@ -14,6 +14,7 @@ get '/ruby' do
 end
 
 get '/cat' do
+    @random_names = ["Amigo", "Misty", "Almond"].sample
     erb(:index)
 end
 
