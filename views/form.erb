@@ -1,0 +1,8 @@
+<% if !@name %>
+  <div>
+    <form action="/named-cat" method="post">
+      <input type="text" name="name">
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+<% end %>
